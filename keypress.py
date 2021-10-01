@@ -1,9 +1,9 @@
 import sys
-import pyautogui
+import pydirectinput
 from collections import deque
 
 def keyDown(key):
-    pyautogui.keyDown(key)
+    pydirectinput.keyDown(key)
 
 def main():
     argv = deque(sys.argv)
